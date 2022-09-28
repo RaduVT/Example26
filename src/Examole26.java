@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Examole26 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int num, div, i;
 
         Scanner inpuValue;
@@ -11,8 +11,8 @@ public class Examole26 {
         num = inpuValue.nextInt();
 
 
-        for (i = 1; i <= num; i++){
-            if (num % i == 0){
+        for (i = 1; i <= num; i++) {
+            if (num % i == 0) {
                 System.out.println(i);
             }
         }
